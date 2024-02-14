@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">iStore</string>
+    <string name="home">خانه</string>
+    <string name="cart">سبد خرید</string>
+    <string name="profile">اطلاعات کاربری</string>
+    <string name="search">جستجو</string>
+    <string name="latest">جدیدترین</string>
+    <string name="view_all">مشاهده همه</string>
+    <string name="popular">پربازدیدترین</string>
+    <string name="product_details_description">این کتونی شدیدا برای دویدن و راه رفتن مناسب هست و تقریبا هیچ فشار مخربی رو نمیذارد به پا و زانوان شما انتقال داده شود.</string>
+    <string name="comments">نظرات کاربران</string>
+    <string name="add_comment">ثبت نظر</string>
+    <string name="view_all_comments">مشاهده همه نظرات</string>
+    <string name="products_list">لیست محصولات</string>
+    <string name="sort">مرتب سازی</string>
+    <string name="sort_latest">جدیدترین</string>
+    <string name="sort_popular">پربازدیدترین</string>
+    <string name="sort_expensive">گران ترین</string>
+    <string name="sort_cheep">ارزان ترین</string>
+    <string name="add_to_cart">افزودن به سبدخرید</string>
+    <string name="unknown_error">خطای نامشخص</string>
+    <string name="add_to_cart_success_message">این محصول باموفقیت به سبدخرید شما اضافه شد.</string>
+    <string name="login_title">ورود به حساب کاربری</string>
+    <string name="auth_description">آدرس پست الکترونیکی و گذرواژه خود را وارد کنید</string>
+    <string name="login">ورود</string>
+    <string name="email">آدرس پست الکترونیکی</string>
+    <string name="password">گذرواژه</string>
+    <string name="signup_hint">آیا حساب کاربری ندارید؟</string>
+    <string name="signup_title">ایجاد حساب کاربری</string>
+    <string name="signup">ثبت نام</string>
+    <string name="login_hint">آیا قبلا ثبت نام کردید؟</string>
+    <string name="pay">پرداخت</string>
+    <string name="count">تعداد</string>
+    <string name="remove_from_cart">حذف از سبد خرید</string>
+    <string name="purchase_detail">جزئیات خرید</string>
+    <string name="total_price">مبلغ کل خرید</string>
+    <string name="shipping_cost">هزینه ارسال</string>
+    <string name="payable_price">مبلغ قابل پرداخت</string>
+    <string name="require_to_login_empty_state">وارد حساب کاربری خود شوید</string>
+    <string name="call_to_action_empty_state">ورود به حساب کاربری</string>
+    <string name="add_to_cart_empty_state">هیچ خبری این جا نیست</string>
+    <string name="shipping_toolbar_title">انتخاب تحویل گیرنده و شیوه پرداخت</string>
+    <string name="online_payment">پرداخت اینترنتی</string>
+    <string name="cash_on_delivery">پرداخت در محل</string>
+    <string name="first_name">نام</string>
+    <string name="last_name">نام خانوادگی</string>
+    <string name="postal_code">کد پستی</string>
+    <string name="phone_number">شماره تماس</string>
+    <string name="recipient_address">آدرس تحویل گیرنده</string>
+    <string name="checkout_toolbar_title">رسید پرداخت</string>
+    <string name="order_status">وضعیت سفارش</string>
+    <string name="price">مبلغ</string>
+    <string name="redirect_to_home">بازگشت به صفحه اصلی</string>
+    <string name="order_history">سفارش سوابق</string>
+    <string name="favorites_list">لیست علاقه مندی ها</string>
+    <string name="logout">خروج از حساب کاربری</string>
+    <string name="guest_user">کاربر مهمان</string>
+    <string name="favorites_empty_state_message">هنوز چیزی به سبد خرید اضافه نکردی</string>
+    <string name="favorites_info_message">برای حذف محصول انگشت خود را روی آن نگه دارید</string>
+
+    <string-array name="sorts_list">
+        <item>@string/sort_latest</item>
+        <item>@string/sort_popular</item>
+        <item>@string/sort_expensive</item>
+        <item>@string/sort_cheep</item>
+    </string-array>
+</resources>

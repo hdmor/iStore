@@ -1,0 +1,6 @@
+THIS PROJECT ISSUES
+
+#1 [ ] display white snackBar when signUp action get error (already used this email)
+#2 [*] if cartItems is more than 1 and user press removeCartItem, cartFragment not changed to emptyState
+#3 [-] could not increase cartItemCount to top 5
+#4 [ ] sometime when click on removeCartItem app go to crash

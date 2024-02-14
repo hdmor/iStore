@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="4dp">
+
+    <com.istore.view.IImageView
+        android:id="@+id/iv_product_image"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:viewAspectRatio="0.8"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tv_product_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="8dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textAppearance="?textAppearanceHeadline6"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_product_previous_price"
+        app:layout_constraintEnd_toEndOf="@+id/iv_product_image"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="نام محصول" />
+
+    <TextView
+        android:id="@+id/tv_product_previous_price"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:textAppearance="?textAppearanceBody2"
+        android:textColor="?android:textColorSecondary"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_product_current_price"
+        app:layout_constraintEnd_toEndOf="@+id/tv_product_title"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tv_product_title"
+        tools:text="قیمت قبلی محصول" />
+
+    <TextView
+        android:id="@+id/tv_product_current_price"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:textAppearance="?textAppearanceBody1"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_product_image"
+        app:layout_constraintEnd_toEndOf="@+id/tv_product_previous_price"
+        app:layout_constraintStart_toStartOf="@+id/tv_product_previous_price"
+        tools:text="قیمت فعلی محصول" />
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/iv_product_image"
+        app:layout_constraintStart_toStartOf="@+id/iv_product_image"
+        app:layout_constraintTop_toTopOf="@+id/iv_product_image">
+
+        <ImageView
+            android:id="@+id/iv_product_favorite"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_gravity="start"
+            android:background="@drawable/bg_iv_favorite"
+            android:padding="12dp"
+            android:src="@drawable/ic_favorites" />
+
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
